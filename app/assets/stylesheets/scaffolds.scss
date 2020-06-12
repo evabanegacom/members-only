@@ -7,13 +7,8 @@ body {
   line-height: 18px;
 }
 
-p,
-
-ol,
-
-ul,
-
-td {
+/* stylelint-disable selector-list-comma-newline-after */
+p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -45,11 +40,9 @@ th {
 td {
   padding: 0 5px 7px;
 }
-
+/* stylelint-disable selector-list-comma-newline-after */
 div {
-  &.field,
-
-  &.actions {
+  &.field, &.actions {
     margin-bottom: 10px;
   }
 }
