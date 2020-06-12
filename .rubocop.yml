@@ -5,11 +5,7 @@ AllCops:
     - "config/**/*"
     - "Guardfile"
     - "Rakefile"
-    - "README.md"
     - "node_modules/**/*"
-    - "vendor/**/*"
-    - "test/**/*"
-    - "Gemfile"
 
   DisplayCopNames: true
 
